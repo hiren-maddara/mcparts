@@ -1,0 +1,41 @@
++------------------+
+|  Landing Page    |
+|  (Welcome, Login,|
+|  Sign-up)        |
++--------+---------+
+         |
+         v
++--------+---------+
+|  Authentication  |
+|  (Login, Sign-up,|
+|  Forgot Password)|
++--------+---------+
+         |
+         v
++--------+---------+
+|     Dashboard    |
+|  (Summary Stats, | summary stats:  amount this week, cars & salses/week, total income/month, - plus increase/decrease status in percentages || June revenue, customers, 
+|  Quick Links,    | sales overview chart/section with some details
+|  Notifications)  | Recent sales/recent activity
++---+----+----+----+ Quick links: New sale, Search, notifiations, current user(n options)
+    |    |    |    |
+    v    v    v    v
++---+----+----+----+    +------------------+  Inventory Mgmt: show all available spare, add, update, logs. 
+|  Inventory Mgmt  |    |  Sales Management|  Sales mgmt: new sale, list, reports
+|  (List, Add,     |    |  (New Sale, List,|  
+|  Update, Logs)   |    |  Reports)        |  
++---+----+----+----+    +------------------+  
+    |    |    |    |
+    v    v    v    v
++---+----+----+----+    +------------------+   
+|  Repair Services |    |  User Management |   
+|  (Create, List,  |    |  (Add/Edit/Delete|
+|  Update, Logs)   |    |  Users, Roles)   |  
++---+----+----+----+    +------------------+  
+         |
+         v
++--------+------------+
+| Reports & Analytics |
+| (Sales, Inventory,  |
+| Repairs)            |
++---------------------+
