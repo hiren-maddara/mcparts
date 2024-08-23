@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# PreS
 
-## Getting Started
+This is an intranet business management system for a workshop (spare) company and vehicle technical services, to track their cash flow, vehicle services, spare flow and sales, plus the clients and employees. 
 
-First, run the development server:
+Some pages are still under development, b'se I didn't know which features this company would need.  
+
+I used Next.js(app router), tailwindCSS, supabase (later intend to incorporate own SQL db, I also like sequelizeJS), etc.
+
+## Demo
+
+To sample the design:
 
 ```bash
+# clone the repo, cd into it, and run dev server
+git clone https://github.com/hiren-maddara/mcparts.git
+cd mcparts
+
+# then
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Samples
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Login and dashboard
+![login page](samples\login.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![dashboard page](samples\dash.png)
 
-## Learn More
+### Sales 
+![Sales form](samples\saleform.png)
 
-To learn more about Next.js, take a look at the following resources:
+### Inventory
+![Inventory page](samples\inventory.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Services
+![Services page](samples\services.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Features
+Automated and user friendly selling of spare
+Feedback system 
+Modern and intuitive UI
+Big data display and handling in inventory and services
+Stats summaries and reviews
+...etc
