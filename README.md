@@ -22,18 +22,18 @@ npm run dev
 ## Samples
 
 ### Login and dashboard
-![login page](samples\login.png)
+![login page](samples/login.png)
 
-![dashboard page](samples\dash.png)
+![dashboard page](samples/dash.png)
 
 ### Sales 
-![Sales form](samples\saleform.png)
+![Sales form](samples/saleform.png)
 
 ### Inventory
-![Inventory page](samples\inventory.png)
+![Inventory page](samples/inventory.png)
 
 ### Services
-![Services page](samples\services.png)
+![Services page](samples/services.png)
 
 # Features
 Automated and user friendly selling of spare
