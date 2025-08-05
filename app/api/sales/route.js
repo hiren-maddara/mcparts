@@ -7,7 +7,7 @@ export async function GET() {
     .select(`*, employees(employeeid, employeename), spareparts(spareid, partnum, partname)`);
 
   if (error) return NextResponse.json({ ...error, status: 505 });
-
+  
   return NextResponse.json(data);
 }
 
@@ -19,10 +19,10 @@ export async function POST(request) {
     .select();
 
   if (error) {
-    return NextResponse.json({ ...error, status: 505 });
+    return NextResponse.json({ ...error, message: "Error", status: 505 });
   }
 
-  return NextResponse.json(data, { status: 201 });
+  return NextResponse.json(data, { message: "Success", status: 201 });
 }
 
 export async function PUT(request) {

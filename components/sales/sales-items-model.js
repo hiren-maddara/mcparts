@@ -55,7 +55,8 @@ export default function SalesItemsModel({ handleCloseSalesModel, handleSelectIte
             </CommandGroup> */}
             {/* <CommandSeparator /> */}
             <CommandGroup heading="Spare">
-              {spareParts.map((item) => (
+              {console.log(spareParts)}
+              {spareParts?.map((item) => (
                 <CommandItem
                   key={item.spareid}
                   className="cursor-pointer"
@@ -70,6 +71,8 @@ export default function SalesItemsModel({ handleCloseSalesModel, handleSelectIte
                   </div>
                 </CommandItem>
               ))}
+
+
             </CommandGroup>
           </CommandList>
         </Command>
