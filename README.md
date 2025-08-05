@@ -1,14 +1,14 @@
-# PreS
+# Poject Overview
 
-This is an intranet business management system for a workshop (spare) company and vehicle technical services, to track their cash flow, vehicle services, spare flow and sales, plus the clients and employees. 
-
-Some pages are still under development, b'se I didn't know which features this company would need.  
-
-I used Next.js(app router), tailwindCSS, supabase (later intend to incorporate own SQL db, I also like sequelizeJS), etc.
+This is a stripped-dwon sample of a full-stack intranet business management system I built for a vehicle workshop, spare parts supplier, and technical services provider where I worked. It replaces inefficient manual data entry and improves tracking of cash flow, vehicle services, inventory, sales, clients, and employees. The web app connects to a native SQLite3 database via Sequelize ORM for secure, structured storage, and syncs with a Supabase database for remote access and backups—both schemed from scratch. Key features include full CRUD operations, an admin dashboard, user authentication, a customizable UI, interactive charts, and spreadsheet-style data management
 
 ## Demo
+To see online demo, visit:
+[https://mcparts.netlify.app](https://mcparts.netlify.app)
 
-To sample the design:
+
+
+To run the code yourself:
 
 ```bash
 # clone the repo, cd into it, and run dev server
@@ -35,10 +35,3 @@ npm run dev
 ### Services
 ![Services page](samples/services.png)
 
-# Features
-Automated and user friendly selling of spare
-Feedback system 
-Modern and intuitive UI
-Big data display and handling in inventory and services
-Stats summaries and reviews
-...etc
